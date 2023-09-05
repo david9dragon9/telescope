@@ -1,0 +1,12 @@
+layers: null
+out_results: null
+num_initial_results: null
+
+input_path: null
+input_results: null
+output_path: null
+
+chat_model_name: null
+embedding_model_name: null
+tool_name: duckduckgo
+max_new_tokens: 512
