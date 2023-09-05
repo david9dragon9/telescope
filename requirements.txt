@@ -1,0 +1,13 @@
+langchain
+colorama
+tqdm
+transformers
+duckduckgo_search
+chromadb
+git+https://github.com/UKPLab/sentence-transformers.git
+torch
+numpy
+hydra-core
+fschat[model_worker,webui]
+requests
+beautifulsoup4

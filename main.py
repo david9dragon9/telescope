@@ -29,7 +29,7 @@ def run_layers(tool, layer_names, layers, query, num_initial_results, results=No
 @hydra.main("./telescope/configs/")
 def main(cfg):
     if cfg.layers == "all":
-        cfg.layers = ["embedding", "filtering", "extraction", "summary"]
+        cfg.layers = ["embedding", "extraction", "filtering", "summary"]
     assert len(cfg.layers) == len(
         cfg.out_results
     ), "Number of layers must match number of output results"
